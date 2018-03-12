@@ -29,17 +29,17 @@
               </thead>
               <tbody>
                 <tr>
-                  <td><span class="icon icon-human" title="Human"></span> <span class="icon icon-hunter" title="Hunter"></span><a href="/admin/characters/Juthien/view">Juthien</a></td>
+                  <td><a href="/admin/characters/Juthien/view">Juthien</a> <span class="icon icon-human" title="Human"></span> <span class="icon icon-hunter" title="Hunter"></span></td>
                   <td>5</td>
                   <td>Elywnn Forest</td>
                 </tr>
                 <tr>
-                  <td><span class="icon icon-night-elf" title="Night Elf"></span> <span class="icon icon-druid" title="Druid"></span><a href="/admin/characters/Kleetis/view">Kleetis</a></td>
+                  <td><a href="/admin/characters/Kleetis/view">Kleetis</a> <span class="icon icon-night-elf" title="Night Elf"></span> <span class="icon icon-druid" title="Druid"></span></td>
                   <td>1</td>
                   <td>Teldrassil</td>
                 </tr>
                 <tr>
-                  <td><span class="icon icon-orc" title="Orc"></span> <span class="icon icon-paladin" title="Paladin"></span><a href="/admin/characters/Orcyou/view">Orcyou</a></td>
+                  <td><a href="/admin/characters/Orcyou/view">Orcyou</a> <span class="icon icon-orc" title="Orc"></span> <span class="icon icon-paladin" title="Paladin"></span></td>
                   <td>20</td>
                   <td>Orgrimmar</td>
                 </tr>

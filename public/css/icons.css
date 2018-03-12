@@ -1,7 +1,28 @@
+span.icon {
+	display: inline-block;
+	height: 18px;
+	width: 18px;
+	margin-top: 5px;
+}
 span.icon.icon-human {
 	background-image: url('icons/human.png');
 }
 
+span.icon.icon-night-elf {
+	background-image: url('icons/nightelf.png');
+}
+span.icon.icon-orc {
+	background-image: url('icons/orc.png');
+}
+
 span.icon.icon-hunter {
 	background-image: url('icons/hunter.png');
+}
+
+span.icon.icon-paladin {
+	background-image: url('icons/paladin.png');
+}
+
+span.icon.icon-druid {
+	background-image: url('icons/druid.png');
 }
