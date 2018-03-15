@@ -22,42 +22,7 @@
 
     <div class="container-fluid">
       <div class="row">
-        <nav class="col-md-2 d-none d-md-block bg-light sidebar">
-          <div class="sidebar-sticky">
-            <ul class="nav flex-column">
-              <li class="nav-item">
-                <a class="nav-link active" href="/admin/">
-                  <span data-feather="home"></span>
-                  Dashboard <span class="sr-only">(current)</span>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="accounts/">
-                  <span data-feather="users"></span>
-                  Accounts
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="pages/">
-                  <span data-feather="file"></span>
-                  Pages
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="support/">
-                  <span data-feather="help-circle"></span>
-                  Support Tickets
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="settings/">
-                  <span data-feather="settings"></span>
-                  Settings
-                </a>
-              </li>
-            </ul>
-          </div>
-        </nav>
+        @include('admin.layouts.sidebar')
 
         <main role="main" class="col-md-9 ml-sm-auto col-lg-10 pt-3 px-4">
 @yield('content')

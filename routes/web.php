@@ -23,6 +23,10 @@ Route::get('/admin/accounts',function() {
 	return view('admin.accounts');
 });
 
+Route::get('/admin/pages',function() {
+	return view('admin.pages');
+});
+
 Route::get('/admin/settings',function() {
 	return view('admin.settings');
 });
